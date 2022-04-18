@@ -1,5 +1,5 @@
 git config --global user.name xxx  #  设置用户名
-git config --global user.email xxx  #  设置邮箱
+git config --global user.email xxx  #  设置邮箱  this is merge 修改
 #### 可以在C盘下用户下的.gitconfig文件查看
 git init   #  初始化本地仓库
 git status # 查看当前本地库状态
