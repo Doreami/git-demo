@@ -8,3 +8,5 @@ git rm --cached <file>  #  从暂存区删除文件
 git commit -m "日志信息" <file>  # 提交至本地库
 git reflog  # 查看版本日志
 git log  #  查看详细日志
+git restore  # 使得在工作空间但是不在暂存区的文件撤销更改(内容恢复到没修改之前的状态)
+git reset <版本号>  # 回退版本
