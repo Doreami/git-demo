@@ -9,4 +9,8 @@ git commit -m "日志信息" <file>  # 提交至本地库
 git reflog  # 查看版本日志
 git log  #  查看详细日志
 git restore  # 使得在工作空间但是不在暂存区的文件撤销更改(内容恢复到没修改之前的状态)
-git reset <版本号>  # 回退版本
+git reset --hard <版本号>  # 穿梭版本
+###### 分支操作
+git branch  <分支名>  # 创建分支
+git branch -v  #  查看分支
+git checkout <分支名> 
